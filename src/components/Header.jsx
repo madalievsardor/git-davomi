@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../assets/BG.png'
+// import img from '../assets/BG.png'
 
 const Header = () => {
     return (
         <div>
             <div
                 className="w-full h-screen bg-cover bg-center"
-                style={{ backgroundImage: `url(${img})` }}
+                style={{ backgroundImage: `url(${""})` }}
             >
                 <div className='w-[80%] mx-auto'>
                     <div className='w-[500px] flex flex-col gap-[30px] pt-[100px]'>
