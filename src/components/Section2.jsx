@@ -1,6 +1,6 @@
 import React from 'react'
-import video from '../assets/video.png'
-const Section = () => {
+// import video from '../assets/video.png'
+const Section2 = () => {
     return (
         <div className='bg-[#245852] text-white flex justify-between items-center  py-[20px] px-[106px]'>
             <div>
@@ -9,10 +9,10 @@ const Section = () => {
                 <button className='px-[50px] py-[20px] bg-[#01996D] mt-[57px] rounded-[4px]'>Let’s get started</button>
             </div>
             <div>
-                <img src={video} alt="" />
+                <img src={""} alt="" />
             </div>
         </div>
     )
 }
 
-export default Section
+export default Section2
